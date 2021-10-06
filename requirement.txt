@@ -1,0 +1,9 @@
+pandas
+numpy
+os
+PIL
+torch
+space
+sklearn
+matplotlib
+seaborn
