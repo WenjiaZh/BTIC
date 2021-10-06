@@ -6,7 +6,11 @@ Wenjia Zhang, Lin Gui, Yulan He
 
 In this work, we propose a BERT-based multimodal unreliable news detection framework, which captures both textual and visual information from unreliable articles utilising the contrastive learning strategy. The contrastive learner interacts with the unreliable news classifier to push similar credible news (or similar unreliable news) closer while moving news articles with similar content but opposite credibility labels away from each other in the multimodal embedding space. Experimental results on a COVID-19 related dataset, [ReCOVery](https://github.com/apurvamulay/ReCOVery), show that our model outperforms a number of competitive baseline in unreliable news detection.
 
-<img src="https://github.com/WenjiaZh/BTIC/blob/main/ContrastiveFramework.png" width="500"><img src="https://github.com/WenjiaZh/BTIC/blob/main/case.png" width="500">
+<img src="https://github.com/WenjiaZh/BTIC/blob/main/ContrastiveFramework.png" width="500">
+Figure 1: The framework of our proposed approach.
+<img src="https://github.com/WenjiaZh/BTIC/blob/main/case.png" width="500">
+Figure 2: The heat map of attention weights from the interaction layer of the transformer between text and image (resized by bilinear interpolation). In text, words highlighted in blue have higher attentions weights with the ‘unreliable’ category, while those in red are more closely related to the ‘reliable’ category.
+
 
 ## Requirements
 ```
