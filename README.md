@@ -8,6 +8,19 @@ In this work, we propose a BERT-based multimodal unreliable news detection frame
 
 <img src="https://github.com/WenjiaZh/BTIC/blob/main/ContrastiveFramework.png" width="500"><img src="https://github.com/WenjiaZh/BTIC/blob/main/case.png" width="500">
 
+## Requirements
+```
+pandas
+numpy
+os
+PIL
+torch
+space
+sklearn
+matplotlib
+seaborn
+```
+
 ## Citation
 If you think our work is useful, please cite as:
 ```
