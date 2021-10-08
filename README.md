@@ -28,10 +28,10 @@ seaborn
 ## Citation
 If you think our work is useful, please cite as:
 ```
-@article{zhang2021supervised,
+@inproceedings{zhang2021supervised,
   title={Supervised Contrastive Learning for Multimodal Unreliable News Detection in COVID-19 Pandemic},
   author={Zhang, Wenjia and Gui, Lin and He, Yulan},
-  journal={arXiv preprint arXiv:2109.01850},
+  booktitle={30th ACM International Conference on Information and Knowledge Management (CIKM)},
   year={2021}
 }
 ```
