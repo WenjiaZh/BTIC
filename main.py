@@ -245,6 +245,9 @@ def write_memory(Id, x, memory_bank):
 #############
 ### train ###
 #############
+#We tried differnt versions of loss function
+#Here the loss function is different from the one in paper
+
 
 def save_checkpoint(save_path, model, valid_loss):
 
